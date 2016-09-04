@@ -134,6 +134,8 @@ GEM
     ref (2.0.0)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     sass (3.4.22)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -153,6 +155,9 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.3.11)
+    stock_quote (1.2.3)
+      json
+      rest-client (~> 1.6)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
@@ -196,6 +201,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spring
   sqlite3
+  stock_quote
   therubyracer
   turbolinks
   twitter-bootstrap-rails
